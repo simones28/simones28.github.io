@@ -4,6 +4,7 @@ h1 {
 
 #bio {
 	text-align: center;
+	line-height: 40px;
 }
 
 #profile {
@@ -15,10 +16,18 @@ h1 {
 	border-radius: 50%;
 }
 
+#header {
+	background-color= #c33bbf;
+}
+
 * {
 	font-family: Helvetica, sans-serif;
 }
 
 .container {
 
+}
+
+.col-sm-4 h3{
+	text-align: center;
 }
