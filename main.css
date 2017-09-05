@@ -8,6 +8,7 @@ h3 {
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	/*change color?*/
 	background-color: #00FFFF
 }
 
@@ -26,25 +27,29 @@ h3 {
 }
 
 /*need to decide what format I want for photos*/
-#group {
-	diplay: block;
-	margin: auto;
+.DFA {
 	max-height: 250px;
 	max-width: 500px;
+	padding: 5px;
+	padding-bottom: 10px;
+}
+
+#DFAP {
+	text-align: center;
+}
+
+#function {
+	max-height: 250px;
+	max-width: 500px;
+	margin: auto;
+	display: block;
+	padding-bottom: 10px;
 }
 
 #header {
-	background-color= #c33bbf;
+	background-color= #C33BBF;
 }
 
 * {
 	font-family: Helvetica, sans-serif;
-}
-
-.container {
-
-}
-
-.col-sm-4 h3{
-	text-align: center;
 }
