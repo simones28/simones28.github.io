@@ -2,6 +2,15 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #00FFFF
+}
+
 #bio {
 	text-align: center;
 	line-height: 40px;
@@ -14,6 +23,14 @@ h1 {
 	margin: auto;
 	display: block;
 	border-radius: 50%;
+}
+
+/*need to decide what format I want for photos*/
+#group {
+	diplay: block;
+	margin: auto;
+	max-height: 250px;
+	max-width: 500px;
 }
 
 #header {
