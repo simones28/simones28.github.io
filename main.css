@@ -18,6 +18,10 @@ p {
 	margin: 5px;
 }
 
+#contact {
+	text-align: center;
+}
+
 #profile {
 	max-width: 300px;
 	max-height: 300px;
