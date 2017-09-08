@@ -1,15 +1,21 @@
 h1 {
 	text-align: center;
+	font-size: xx-large;
 }
 
-h3 {
+h2 {
 	text-align: center;
+}
+
+p {
+	padding: 15px;
 }
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	/*change color?*/
-	background-color: #00FFFF
+	background-color: #68B2DA;
+	margin: 5px;
 }
 
 #bio {
@@ -18,12 +24,13 @@ h3 {
 }
 
 #profile {
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 300px;
+	max-height: 300px;
 	/*next 2 lines center image*/
 	margin: auto;
 	display: block;
 	border-radius: 50%;
+	border: 5px solid #68B2DA;
 }
 
 /*need to decide what format I want for photos*/
@@ -51,5 +58,12 @@ h3 {
 }
 
 * {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+	background-color: #1E89C3;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
 }
