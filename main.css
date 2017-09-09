@@ -18,10 +18,21 @@ p {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin: 5px;
 	background-color: #FFF;
+	border-left: 5px solid #68B2DA;
+	border-right: 5px solid #68B2DA;
+	border-bottom: 5px solid #68B2DA;
+}
+
+.logo {
+	max-width: 25px;
+	max-height: 25px;
+	display: inline;
+	vertical-align: middle;
 }
 
 #contact {
 	text-align: center;
+	padding-top: 5px;
 }
 
 #profile {
@@ -51,10 +62,6 @@ p {
 	margin: auto;
 	display: block;
 	padding-bottom: 10px;
-}
-
-#header {
-	background-color= #C33BBF;
 }
 
 * {
