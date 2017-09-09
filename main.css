@@ -1,11 +1,12 @@
 h1 {
 	text-align: center;
-	font-size: xx-large;
+	font-size: 250%;
 }
 
 h2 {
 	text-align: center;
 	padding-top: 10px;
+	background-color: #68B2DA;
 }
 
 p {
@@ -15,9 +16,8 @@ p {
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	/*change color?*/
-	background-color: #68B2DA;
 	margin: 5px;
+	background-color: #FFF;
 }
 
 #contact {
@@ -31,7 +31,6 @@ p {
 	margin: auto;
 	display: block;
 	border-radius: 50%;
-	border: 5px solid #68B2DA;
 }
 
 /*need to decide what format I want for photos*/
